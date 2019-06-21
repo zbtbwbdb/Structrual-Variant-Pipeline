@@ -1,7 +1,7 @@
 # Strucrual-Variant-Pipeline
 
 #Table of contents
-1. SV Calling
+1. [SV Calling](#SV Calling)
 2. SV QC
 3. SV merging
 4. SV annotation
