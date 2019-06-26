@@ -6,5 +6,3 @@
 3. SV merging
 4. SV annotation
 5. SV database filteringa
-
-#SV Calling
