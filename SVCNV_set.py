@@ -2,11 +2,6 @@
 #start_pos: start position
 #end_pos: end position
 #svcnv_type: svcnv type(DUP,DEL,INV,INS...)
-#ci_start: Confidence interval around POS for imprecise variants
-#ci_end: Confidence interval around END for imprecise variants
-#pe: Number of paired-end reads supporting the variant across all samples
-#sr: Number of split reads supporting the variant across all samples
-#qual: quality score
 
 class SVCNV:
     def __init__(self,cnv_line):
