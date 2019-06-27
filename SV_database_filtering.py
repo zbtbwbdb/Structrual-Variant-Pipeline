@@ -1,4 +1,4 @@
-import sys,getopt,os,commands,SVCNV,SVCNV_sim,SVCNV_set
+import sys,getopt,os,commands,SVCNV_set
 #parameter setting
 wd = sys.path[0]
 opts,args = getopt.getopt(sys.argv[1:],"i:r:d:c:p:t:o:f:g:")
