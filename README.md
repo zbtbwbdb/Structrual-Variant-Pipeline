@@ -1,4 +1,4 @@
-# Strucrual-Variant-Pipeline
+# Structrual-Variant-Pipeline
 
 #Table of contents
 1. [SV Calling](#SV Calling)
