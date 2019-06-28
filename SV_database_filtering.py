@@ -6,7 +6,7 @@ inFile = ""
 cutoff = 0
 percent = 0.8
 distance = 100
-tabixPath = "/storage/chen/Pipeline/pipeline/pipeline_restructure/bin/tabix-0.2.4/tabix"
+tabixPath = ".../bin/tabix-0.2.4/tabix"
 for op, value in opts:
 	if op == "-i":
 	    inFile = value
@@ -69,7 +69,7 @@ with open(inFile,'r') as f:
                 sv_dict=[]
                 for svcnvs in svcnv_list:
                     result = svcnvs.strip().split("\t")
-                    if result[4]>=allele_freq or template_database=="/storage/chen/Pipeline/pipeline/pipeline_restructure/trio_cnv/GRCh37_hg19_variants_2016-05-15.txt":
+                    if result[4]>=allele_freq or template_database==".../trio_cnv/GRCh37_hg19_variants_2016-05-15.txt":
                         s = SVCNV_set.SVCNV(svcnvs)
                         continue
                     sv_dict.append(s)
